@@ -232,10 +232,90 @@
             // }
             if(things[index].edible){
                 // console.log(things[index]);
-                console.log(things[index].name);
+                // console.log(things[index].name);
             }
         }
 
 
+        const numbers = [45, 4, 9, 16, 25];
+        // console.log("numbers_legth", numbers.length)
+
+        let total_numbers = 0
+        // declare
+        // condition
+        // increment
+        for (let index = 0; index < numbers.length; index++) {
+            // console.log(`index ${index}`, numbers[index]);
+        }
+        // console.log("-------")
+        numbers.forEach(
+            (n) => {
+                // console.log( n);
+            }
+        );
+        // console.log("-------")
+        numbers.every(
+            (nn, index333)=>{
+                // console.log(`index ${index333}`, nn);
+                return true;
+            }
+        );
+
+// functions
+        // (v) => {
+        //     if (v > 3) {
+        //       return false;
+        //     }
+          
+        //     console.log(v);
+        //     // Make sure you return true. If you don't return a value, `every()` will stop.
+        //     return true;
+        // }
+
+        // numbers.forEach(
+        //     (n) => {
+        //         total_numbers += n;
+        //         // 0+45
+        //         // 45+4
+        //         // 49+9
+        //         // 58+16
+        //         // 74+25
+        //         // 99
+        //     }
+        // );
+        // numbers.forEach(
+        //     function(n){
+        //         total_numbers += n;
+        //     }
+        // );
+
+        const myCreatedFunc = (value) => {
+            total_numbers += value;
+        }
+        // function myCreatedFunc(value) {
+        //     total_numbers += value;
+        // }
+
+        // (value_sa_current_index, current_index, anything )=>{}
+        // (value_sa_current_index) => {}
+        // (value_sa_current_index, current_index) => {}
+
+        numbers.forEach(myCreatedFunc);
+
+    names = ["hanna", "jed", "fred"]
+    // for of
+        for (let x of names) {
+            console.log(x)
+        }
+console.log("---------------");
+        for (let index444 = 0; index444 < names.length; index444++) {
+            console.log(names[index444]);
+        }
+        console.log("---------------");
+        names.forEach((name_value)=>{
+            console.log(name_value)
+        })
 
 
+
+        // console.log("total", total_numbers)
