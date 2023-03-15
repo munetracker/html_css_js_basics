@@ -8,6 +8,7 @@
     const constant_variable = 10;
 
 // datatypes
+// https://www.facebook.com/Ghilasigh0554/photos/a.117604104558617/145225955129765/
     // boolean - false, true, 0, 1
     // int/float/long - numbers
     // string/char - words, characters
@@ -305,17 +306,110 @@
     names = ["hanna", "jed", "fred"]
     // for of
         for (let x of names) {
-            console.log(x)
+            // console.log(x)
         }
-console.log("---------------");
+        // console.log("---------------");
         for (let index444 = 0; index444 < names.length; index444++) {
-            console.log(names[index444]);
+            // console.log(names[index444]);
         }
-        console.log("---------------");
+        // console.log("---------------");
         names.forEach((name_value)=>{
-            console.log(name_value)
+            // console.log(name_value)
         })
 
 
 
         // console.log("total", total_numbers)
+// conditional
+    let n1 = 4;
+        // store_variable   condition ? true->assign value      : false->assign value
+    // let conditional_result = n1 > 10 ? "n1 is greater than 10" : "n1 is less than 10";
+
+    let age = 40;
+    let sex = "male";
+    let sunday_class = "";
+    let specific_class = "";
+    if(age < 12){
+        sunday_class = "Primary";
+        // boys
+        if(sex == "male"){
+            specific_class = "boys";
+        }else{
+            specific_class = "girls";
+        }
+        // 12-17
+    }else if (age > 11 && age < 18){
+        sunday_class = "Youth";
+        specific_class = sex == "male"? "YM": "YW";
+    }else{
+    //  eq rs
+        sunday_class = "Adult";
+        specific_class = sex == "male"? "EQ": "RS";
+    }
+    // console.log(sunday_class, specific_class);
+
+    // let age2 = 12;
+    // switch (age2) {
+    //     case 12:
+    //         console.log("you are a young man/woman")            
+    //         // break;
+    //     case 18:
+    //         console.log("you are on debut")            
+    //         // break;
+    //     case 60:
+    //         console.log("you are retired")            
+    //         // break;
+    //     default:
+    //         console.log("age bracket not mention")  
+    //         break;
+    // }
+
+    const things222 = [
+        {
+            name:"apple",
+            color:"red",
+            type:"fruit",
+            size:"small",
+            weight:5,
+            edible:true
+        },
+        {
+            name:"squash",
+            color:"yellowgreen",
+            type:"vegetable",
+            size:"medium",
+            weight:10,
+            edible:true
+        },
+        {
+            name:"car",
+            color:"anycolor",
+            type:"solid",
+            size:"big",
+            weight:500,
+            edible:false
+        },
+        {
+            name:"helicopter",
+            color:"anycolor",
+            type:"solid",
+            size:"big",
+            weight:500,
+            edible:false
+        },
+        {
+            name:"house",
+            color:"anycolor",
+            type:"solid",
+            size:"big",
+            weight:500,
+            edible:false
+        }
+    ]
+    for (let i = 0; i < things222.length; i++) {
+        if (things222[i].type === "vegetable") { break; }
+        console.log(things222[i]);
+        // text += "The number is " + i + "<br>";
+    }
+    
+ 
