@@ -1,21 +1,18 @@
 // arrays
-const cars = [
-    "Saab", 
-    "Volvo", 
-    "BMW"
-];
+export const numbers = [4, 100, -37, 50, 3, 1, 1000, 15];
+export const fruits = ["apple", "grapes", "mango"];
 
 // objects
-const thing = {
+export const thing = {
     name:"apple",
     color:"red",
     type:"fruit",
     size:"small",
     edible:true
-}
+};
 
 // combined arrays, objects and datatypes
-const things = [
+export const things = [
     {
         name:"apple",
         color:"red",
@@ -57,40 +54,4 @@ const things = [
         weight:500,
         edible:false
     }
-]
-
-// datatypes
-// console.log(things);
-
-// console.log(typeof 0)
-// console.log(typeof "aasdasd")
-// console.log(typeof things)
-
-
-// functions
-    // (v) => {
-    //     if (v > 3) {
-    //       return false;
-    //     }
-      
-    //     console.log(v);
-    //     // Make sure you return true. If you don't return a value, `every()` will stop.
-    //     return true;
-    // }
-
-    // numbers.forEach(
-    //     (n) => {
-    //         total_numbers += n;
-    //         // 0+45
-    //         // 45+4
-    //         // 49+9
-    //         // 58+16
-    //         // 74+25
-    //         // 99
-    //     }
-    // );
-    // numbers.forEach(
-    //     function(n){
-    //         total_numbers += n;
-    //     }
-    // );
+];
