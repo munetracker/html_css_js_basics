@@ -1,3 +1,5 @@
+// https://github.com/munetracker/html_css_js_basics
+
 // arithmetic
     // console.log(10+10);
     // console.log(10-10);

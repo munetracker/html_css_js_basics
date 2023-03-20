@@ -1,3 +1,5 @@
+// https://github.com/munetracker/html_css_js_basics
+
 function old_fashion_function (value, index, array_value) {
     console.log(value, index, array_value);
 }

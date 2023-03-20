@@ -1,7 +1,9 @@
-let firstnumber = 1;
-let secondnumber = 10;
+// https://github.com/munetracker/html_css_js_basics
 
 // logical
+    let firstnumber = 1;
+    let secondnumber = 10;
+
     // console.log( firstnumber == secondnumber );
     // console.log( firstnumber === secondnumber );
     // console.log( firstnumber != secondnumber );
