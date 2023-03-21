@@ -2,7 +2,7 @@
 
 // arrays
     export const numbers = [4, 100, -37, 50, 3, 1, 1000, 15];
-    export const fruits = ["apple", "grapes", "mango"];
+    export const fruits = ["apple", "grapes", "mango", "pineapple", "avocado", "watermelon"];
 
 // objects
     export const thing = {

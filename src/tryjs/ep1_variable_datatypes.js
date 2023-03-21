@@ -16,19 +16,6 @@
 // output
     // console.log(global_changeable_variable);
 
-// string declarations
-    let word1 = "in double quote";
-    let word2 = 'single';
-    let number = 11231;
-    // backtick
-    let word3 = `
-        ${word1} multiple ${number}
-        ${word2} line
-    `;
-    let word4 = ""+number+
-        word1 + " multiple " + 
-        word2 + " line ";
-
 // typeof
     // console.log(typeof 0)
     // console.log(typeof "aasdasd")

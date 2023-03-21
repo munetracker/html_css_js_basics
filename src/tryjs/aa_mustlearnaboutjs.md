@@ -21,11 +21,11 @@
 14. console log - console.log
 15. [let](https://github.com/munetracker/html_css_js_basics/blob/master/src/tryjs/ep1_variable_datatypes.js)
 16. camelcase
-17. dynamically typed
-18. primitive - string, number, bigint, boolean, undefined, symbol, null
-19. undefined
-20. null
-21. string
+17. [dynamically typed](https://github.com/munetracker/html_css_js_basics/blob/master/src/tryjs/ep1_variable_datatypes.js)
+18. [primitive - string, number, bigint, boolean, undefined, symbol, null](https://github.com/munetracker/html_css_js_basics/blob/master/src/tryjs/ep1_variable_datatypes.js)
+19. [undefined](https://github.com/munetracker/html_css_js_basics/blob/master/src/tryjs/ep1_variable_datatypes.js)
+20. [null](https://github.com/munetracker/html_css_js_basics/blob/master/src/tryjs/ep1_variable_datatypes.js)
+21. [string](https://github.com/munetracker/html_css_js_basics/blob/master/src/tryjs/ep1_stringjs.js)
 22. object
 23. semicolons
 24. [const](https://github.com/munetracker/html_css_js_basics/blob/master/src/tryjs/ep1_variable_datatypes.js)
