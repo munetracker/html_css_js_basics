@@ -33,7 +33,9 @@
         }while (iii < 5);
 
 // other loops
+    // https://github.com/munetracker/html_css_js_basics/blob/master/src/tryjs/ep6_loops_data.js
     import { cars } from './ep6_loops_data.js';
+    // https://github.com/munetracker/html_css_js_basics/blob/master/src/tryjs/ep5_function.js
     import { display_function } from './ep5_function.js';
 
     // for in
