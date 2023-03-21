@@ -12,6 +12,8 @@ notes
 * submit for changes
 * wait for original repo to accept and wait for github notification
 
+###### [Fireship.io JS 101 notes](https://github.com/munetracker/html_css_js_basics/blob/master/src/tryjs/aa_mustlearnaboutjs.md)
+
 ###### [Try JS Notes](https://github.com/munetracker/html_css_js_basics/blob/master/src/tryjs/aa_folderdirectory.md)
 
 
