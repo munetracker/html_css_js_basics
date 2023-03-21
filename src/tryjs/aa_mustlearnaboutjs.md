@@ -1,4 +1,5 @@
-https://www.youtube.com/watch?v=lkIFF4maKMU
+[Fireship.io Video Source](https://www.youtube.com/watch?v=lkIFF4maKMU)
+[Try JS Notes](https://github.com/munetracker/html_css_js_basics/blob/master/src/tryjs/aa_folderdirectory.md)
 
 - Introduction
 1. Browser
@@ -32,7 +33,7 @@ https://www.youtube.com/watch?v=lkIFF4maKMU
 27. global scope
 
 - Functions
-28. function
+28. [Functions](https://github.com/munetracker/html_css_js_basics/blob/master/src/tryjs/ep5_function.js)
 29. local scope
 30. block scope
 31. hoisting
