@@ -1,8 +1,8 @@
-let value = "asdadasd"
-let value2 = "12312321"
-console.log(value+value2)
-console.log(`${value}${value2}`)
-console.log(value.concat(value2));
+// let value = "asdadasd"
+// let value2 = "12312321"
+// console.log(value+value2)
+// console.log(`${value}${value2}`)
+// console.log(value.concat(value2));
 
 // string declarations
 let word1 = "in double quote";
@@ -16,3 +16,5 @@ let word3 = `
 let word4 = ""+number+
     word1 + " multiple " + 
     word2 + " line ";
+console.log(word3);
+console.log(word4);

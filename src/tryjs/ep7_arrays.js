@@ -93,11 +93,10 @@
             export const result_findindex = things.findIndex((data)=>{
                 return data.size === "big";
             });
-            console.log("findindex", result_findindex)
+            // console.log("findindex", result_findindex)
  
         // reverse
             // console.log(cars.reverse())
-
 
         // map - array mapping
             // console.log(numbers)
