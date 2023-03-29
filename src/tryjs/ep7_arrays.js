@@ -94,7 +94,25 @@
                 return data.size === "big";
             });
             // console.log("findindex", result_findindex)
- 
+
+        // 4 ways to find
+            const searchvalue = 3;
+            // 1 using indexOf()
+            console.log("using indexOf");
+            console.log( ( numbers.indexOf(searchvalue) !== -1 ) ? "value found" : "NOPE" );
+
+            // 2 using includes()
+            console.log("using includes");
+            console.log( ( numbers.includes(searchvalue) ) ? "value found" : "NOPE" );
+
+            // 3 using find()
+            console.log("using find");
+            console.log( ( numbers.find( element => element === searchvalue ) ) ? "value found" : "NOPE" );
+
+            // 4 using some()
+            console.log("using some");
+            console.log( ( numbers.some( element => element === searchvalue ) ) ? "value found" : "NOPE" );
+
         // reverse
             // console.log(cars.reverse())
 

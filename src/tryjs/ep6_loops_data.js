@@ -12,7 +12,8 @@
         size:"small",
         edible:true
     };
-
+// [] - array
+// {} - object - name-age-
 // combined arrays, objects and datatypes
     export const things = [
         {
