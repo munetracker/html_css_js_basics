@@ -15,3 +15,15 @@ export const display_function = (value, index, array_value) => {
     console.log(index);
     console.log(array_value);
 }
+
+export const reverseInteger = (integer_number) => {
+    let reversed = 0;
+    while (integer_number !== 0){
+        reversed = reversed * 10 + (integer_number % 10);
+        integer_number = Math.trunc(integer_number/10)
+    }
+    return reversed;
+}
+console.log(reverseInteger(912123));
+
+
