@@ -4,11 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DTS Basic Web Development</title>
+    <title>Techy Pridi Basics</title>
 </head>
 <body style="background-color: gray;">
-    <!-- basic -->
+    <ul id="work-task1">
+        Mylinks: 
+    </ul>
+    <script>
+        let ul = document.getElementById("work-task1")
+        let li_array = [
+            {
+                title: "Try Bootstrap 1",
+                link: "/trybootstrap/figma.html"
+            },
+            {
+                title: "Try Bootstrap 2",
+                link: "/trybootstrap/testingbootstrap.html"
+            },
+            {
+                title: "Try CSS",
+                link: "/trycss"
+            },
+            {
+                title: "Try HTML 1",
+                link: "/tryhtml"
+            },
+            {
+                title: "Try HTML 2",
+                link: "/tryhtml/contact.html"
+            },
+            {
+                title: "Try JS",
+                link: "/tryjs"
+            },
+            {
+                title: "Try Python",
+                link: "/trypython"
+            }
+        ]
 
-    <a href="http://" target="_blank" rel="noopener noreferrer"></a>
+        li_array.forEach((value)=>{
+            let li = document.createElement("li");
+            let a = document.createElement("a");
+            a.href = "src/"+value.link;
+            a.textContent = value.title;
+            a.style = "text-decoration:none";
+            li.appendChild(a);
+            ul.appendChild(li);
+        });
+    </script>
 </body>
 </html>
